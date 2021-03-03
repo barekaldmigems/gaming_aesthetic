@@ -1,0 +1,194 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Sigende titel</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jura&display=swap" rel="stylesheet">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+<body>
+
+<div class="grid">
+
+    <div id="header">
+        <div class="nav">
+            <div class="icon_container">
+                <img src="images/logo_1.png" alt="logo" class="logo">
+            </div>
+            <div class="inner-nav"></div>
+        </div>
+
+    </div>
+
+    <div id="kategori" class="kategori">
+        <h1>Pink Paradise</h1>
+    </div>
+
+    <div id="beskrivelse" class="beskrivelse">
+        <h2>Er du også træt af den let genkendlige gamer aesthetic, med de sorte overflader og primær farvende keyboards?
+            Så er du ikke den eneste, den nye pastel girl gamer aesthetic er ved at overtage pladsen som det mest ønskede udseende både hos kvinder og mænd.
+            Det er en ny statement, og det er for at blive. Efter det er blevet mere set at man snakker om sine følelser, er denne aesthetic især højtråbende
+            da den frasiger sig den toxic masculinity og nedgørelsen af gamere af alle køn, som man ofte ser i spil verdenen.
+        </h2>
+    </div>
+
+    <div id="filter" class="filter">FILTER 〓</div>
+
+    <div id="sorter" class="sorter">SORTER ﹀</div>
+
+    <div id="produkter">
+        <div class="produkt">
+            <img src="images/headset.jpeg" alt="headset" style="width: 100%;">
+            <h1>Angelz 2.8 </h1>
+            <p class="price">599</p>
+            <p>Du er en sand engel med dette hedset da du kan høre dine modstandere og allierede</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/headset2.jpg" alt="headset" style="width: 100%;">
+            <h1>M30W </h1>
+            <p class="price">859</p>
+            <p>Cute kittens and epic gaming</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/headset3.jpg" alt="headset" style="width: 100%;">
+            <h1>Pink Dream</h1>
+            <p class="price">426</p>
+            <p>Må din æstetisk være i topform</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/headset4.jpg" alt="headset" style="width: 100%;">
+            <h1>Gamer Girl</h1>
+            <p class="price">499</p>
+            <p>Pink klassikker</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/mus.jpg" alt="mus" style="width: 100%;">
+            <h1>Mouse 2000</h1>
+            <p class="price">589</p>
+            <p>Metal mus der ligger perfekt i hånden til en lang kampagne</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/mus2.jpg" alt="mus" style="width: 100%;">
+            <h1>M0U23</h1>
+            <p class="price">399</p>
+            <p>Lyserrød er ikke altid bobler og jordbær, denne mus fanger den rå og den søde side af personligheden</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/tastatur.png" alt="tastatur" style="width: 100%;">
+            <h1>Typewriter</h1>
+            <p class="price">1.089</p>
+            <p>Old typewriter er evigt populær og derfor en æstetisk perfektion</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/tastatur2.png" alt="tastatur" style="width: 100%;">
+            <h1>Edgy e-girl</h1>
+            <p class="price">999</p>
+            <p>Et setup er ikke komplet før tastaturet matcher</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/pad.jpg" alt="pad" style="width: 100%;">
+            <h1>Wiccan Pad</h1>
+            <p class="price">200</p>
+            <p>Er du også til positive vibes, så er denne mussemåtte perfekt med et lækkert design og funktionalitet</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/pad2.jpg" alt="pad" style="width: 100%;">
+            <h1>Long Pad</h1>
+            <p class="price">895</p>
+            <p>Med en musemåtte der kan fylde hele bordet skal der aldrig tænktes på om man ridser sit bord</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/kabinet.jpg" alt="kabinet" style="width: 100%;">
+            <h1>Case 3000</h1>
+            <p class="price">896</p>
+            <p>Med dettee lukkede kabinet kan der dekorere som det lyster</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/kabinet2.jpg" alt="kabinet" style="width: 100%;">
+            <h1>LED WOW</h1>
+            <p class="price">1.599</p>
+            <p>Det forevigt populære kabinet med vindue, kan oplyse din computers kræfter</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/stol.jpg" alt="stol" style="width: 100%;">
+            <h1>Comfort Much</h1>
+            <p class="price">2.100</p>
+            <p>Med komfort i top, kan der holdes en sund stilling dagen lang</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/stol2.jpg" alt="stol" style="width: 100%;">
+            <h1>Bunny-chan</h1>
+            <p class="price">1.999</p>
+            <p>Komfort og et nutted udseende kan der siddes i denne stol dagen lang</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/bord.png" alt="bord" style="width: 100%;">
+            <h1>Epic Posture</h1>
+            <p class="price">800</p>
+            <p>Dette bord kan tilkopled strøm, så der ikke er behov for forlængerledninger</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+        <div class="produkt">
+            <img src="images/bord2.jpg" alt="bord" style="width: 100%;">
+            <h1>Kitten Max</h1>
+            <p class="price">1.048</p>
+            <p>Bordet indeholder headset stand og opbevaring til kabler samt hjul</p>
+            <p><button>Tilføj til kurv</button></p>
+        </div>
+
+    </div>
+
+    <div id="sider" class="sider">
+        <span>〈</span>
+        <p>Side 1</p>
+        <span>〉 》</span>
+    </div>
+
+    <div id="shipping" class="shipping">SHIPPING</div>
+
+    <div id="sociale_medier" class="sm">SOCIALE MEDIER</div>
+
+    <div id="subcribe" class="subscribe">SUBSCRIBE</div>
+
+    <div id="produktmenu" class="menu">PRODUKTMENU</div>
+
+    <div id="logo" class="footer">LOGO</div>
+
+</div>
+
+</body>
+</html>
